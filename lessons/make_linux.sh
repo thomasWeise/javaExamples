@@ -9,7 +9,6 @@ set -o errexit   # set -e : exit the script if any statement returns a non-true 
 currentDir=`pwd`
 echo "We now build the examples of all the lessons one by one in directory '$currentDir'."
 
-cd "$currentDir/01_java"
-./make_linux.sh
+find . -mindepth 2 -maxdepth 2 -name "make_linux.sh" -type f -execdir "{}" \;
 
 echo "Successfully finished building the examples of all lessons in directory'$currentDir'."

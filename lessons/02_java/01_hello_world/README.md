@@ -1,4 +1,4 @@
-# Lesson 01: Hello World Example
+# Lesson 02, Example 01: Hello World Example
 
 The `Hello World!` example.
 

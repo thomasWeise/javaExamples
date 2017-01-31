@@ -7,8 +7,8 @@ set -o nounset   # set -u : exit the script if you try to use an uninitialised v
 set -o errexit   # set -e : exit the script if any statement returns a non-true return value
 
 currentDir=`pwd`
-echo "We now build all the examples one by one in directory '$currentDir'."
+echo "We now build all the examples of lesson 2 one by one in directory '$currentDir'."
 
 find . -mindepth 2 -maxdepth 2 -name "make_linux.sh" -type f -execdir "{}" \;
 
-echo "Successfully finished building all examples in directory'$currentDir'."
+echo "Successfully finished building the examples of lesson 2 in directory'$currentDir'."

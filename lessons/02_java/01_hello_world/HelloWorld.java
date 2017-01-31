@@ -11,6 +11,6 @@ public class HelloWorld {
    *          we ignore this parameter for now
    */
   public static final void main(final String[] args) {
-    System.out.println("Hello World!"); // print "Hello World!" to console
+    System.out.println("Hello World!"); // print "Hello World!" to console //$NON-NLS-1$
   }
 }
