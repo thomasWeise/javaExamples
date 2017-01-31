@@ -32,4 +32,4 @@ In this lesson, we learn how to compile and run a simple Java program which just
 
 ## 3. Compile and Run Programs
 
-See the `01_hello_world` folder.
+See the [Hello World!](./01_hello_world) example for a very simple Java program and instructions how to compile and run it.

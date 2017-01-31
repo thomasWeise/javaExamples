@@ -26,3 +26,7 @@ It offers:
 - download the package
 - unpack it into a folder of your liking
 - inside that folder, you can find an executable named `eclipse` or `eclipse.exe`: run it
+
+## 3. Using Eclipse
+
+See the [Hello World!](./01_hello_world) example for a very simple Java project in Eclipse, basically the same as our See the [Hello World!](../02_java/01_hello_world) example in the [Hello World!](../02_java/) basic Java lesson.
