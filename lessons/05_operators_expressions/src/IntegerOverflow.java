@@ -7,7 +7,7 @@ public class IntegerOverflow {
    *          we ignore this parameter for now
    */
   public static void main(String[] args) {
-    int res;
+    int res; // declare int variable res
     
     res = 1_000_000; // store 1_000_000 in variable "res"
     System.out.println(res); // prints 1000000

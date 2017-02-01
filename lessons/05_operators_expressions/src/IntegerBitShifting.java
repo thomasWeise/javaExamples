@@ -7,7 +7,7 @@ public class IntegerBitShifting {
    *          we ignore this parameter for now
    */
   public static void main(String[] args) {
-    int res;
+    int res; // declare int variable res
     
     res = 128; // store 128 = 2^7 in variable "res" (we use "^" here as power operator, not as xor...)
     System.out.println(res); // prints 128

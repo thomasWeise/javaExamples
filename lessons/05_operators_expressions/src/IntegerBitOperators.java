@@ -7,7 +7,7 @@ public class IntegerBitOperators {
    *          we ignore this parameter for now
    */
   public static void main(String[] args) {
-    int res;
+    int res; // declare int variable res
     
     res = 1; // store 1 in variable "res"
     System.out.println(res); // prints 1

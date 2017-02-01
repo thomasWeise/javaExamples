@@ -7,7 +7,7 @@ public class IntegerArithmetic {
    *          we ignore this parameter for now
    */
   public static void main(String[] args) {
-    int res;
+    int res; // declare int variable res
     
     res = 5 + 4; // store 5 + 4 in variable "res"
     System.out.println(res); // prints 9
