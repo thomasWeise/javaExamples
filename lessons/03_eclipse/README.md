@@ -29,4 +29,4 @@ It offers:
 
 ## 3. Using Eclipse
 
-See the [Hello World!](./01_hello_world) example for a very simple Java project in Eclipse, basically the same as our See the [Hello World!](../02_java/01_hello_world) example in the [Hello World!](../02_java/) basic Java lesson.
+We again use a [Hello World!](../02_java) program as example, but this time it comes as Eclipse project.
