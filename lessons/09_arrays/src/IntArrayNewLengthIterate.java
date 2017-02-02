@@ -1,5 +1,5 @@
 /** Example for iterating over arrays using their length */
-public class IntArrayLength {
+public class IntArrayNewLengthIterate {
   /**
    * The main routine
    * 

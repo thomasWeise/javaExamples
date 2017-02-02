@@ -1,5 +1,5 @@
-/** Example for allocating and using a int arrays */
-public class IntArrayNew {
+/** Example for allocating and using a int arrays and iterating over them */
+public class IntArrayNewFastIterate {
   /**
    * The main routine
    * 
