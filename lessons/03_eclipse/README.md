@@ -1,4 +1,4 @@
-# Lesson 03: Hello World Example Revisited
+# Lesson 3: Hello World Example Revisited
 
 We now repeat the `Hello World!` example, but as Eclipse project.
 

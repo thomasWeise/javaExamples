@@ -1,4 +1,4 @@
-# Lesson 04: Types, Variables, and Assignments
+# Lesson 4: Types, Variables, and Assignments
 
 In this lesson, we learn about the different primitive types supported by Java (and the non-primitive type String).
 

@@ -1,4 +1,4 @@
-# Lesson 02: Installing Java, Compiling and Running Programs
+# Lesson 2: Installing Java, Compiling and Running Programs
 
 In this lesson, we learn how to compile and run a simple Java program which just prints "Hello World!" to the console. (Lesson 01 is the introduction lesson with no examples, so we start here at 02 :-)
 

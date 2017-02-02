@@ -8,7 +8,7 @@
 
 "../../scripts/make_eclipse_structured_project_linux.sh" 'console I/O' noExec
 
-echo "Now building output files."
+echo "Now building output files (and testing whether the programs work while we are at it)."
 cd "bin"
 java SystemOut > ../output/SystemOut.txt
 
