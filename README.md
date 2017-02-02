@@ -9,3 +9,4 @@ A repository for simple Java programming examples, as companion to a course in J
     * [Operators and Expressions](./lessons/05_operators_expressions/)
     * [Console I/O](./lessons/06_console_io/)
     * [Conditionals](./lessons/07_conditionals/)
+    * [Loops](./lessons/08_loops/)

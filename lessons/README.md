@@ -10,3 +10,4 @@ Our course is divided in the following lessons:
 * [Operators and Expressions](./05_operators_expressions/)
 * [Console I/O](./06_console_io/)
 * [Conditionals](./07_conditionals/)
+* [Loops](./08_loops/)
