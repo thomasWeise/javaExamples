@@ -1,0 +1,2 @@
+You wrote: 'This text is printed and afterwards, a new line is started.'.
+You wrote 34 and 5 times 34 is 170

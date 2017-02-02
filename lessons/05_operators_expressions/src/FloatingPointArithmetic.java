@@ -6,7 +6,7 @@ public class FloatingPointArithmetic {
    * @param args
    *          we ignore this parameter for now
    */
-  public static void main(String[] args) {
+  public static final void main(String[] args) {
     double res1, res2; // declare double variable res1 and res2
     
     res1 = 5d + 4.1d; // store 5 + 4.1 in variable "res1"

@@ -1,0 +1,4 @@
+Please enter string: 
+You wrote: 'This text is printed and afterwards, a new line is started.'.
+Please enter int number: 
+You wrote 34 and 5 times 34 is 170

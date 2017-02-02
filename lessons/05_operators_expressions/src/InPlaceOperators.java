@@ -6,7 +6,7 @@ public class InPlaceOperators {
    * @param args
    *          we ignore this parameter for now
    */
-  public static void main(String[] args) {
+  public static final void main(String[] args) {
     int i = 1, j = 5; // declare the two integer variables i and j, where i=1 and j=5
         
     System.out.println(i); // prints 1

@@ -6,7 +6,7 @@ public class IntegerOverflow {
    * @param args
    *          we ignore this parameter for now
    */
-  public static void main(String[] args) {
+  public static final void main(String[] args) {
     int res; // declare int variable res
     
     res = 1_000_000; // store 1_000_000 in variable "res"

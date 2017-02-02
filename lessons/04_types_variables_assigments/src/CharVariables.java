@@ -18,7 +18,10 @@ public class CharVariables {
     var = '\n'; // set variable var to literal \n, which stands for newline
     System.out.println(var); // prints a newline, i.e., an empty line
     
-    int space = ' '; // set space to a space character
+    char space = ' '; // set space to a space character
     System.out.println(space); // prints ' '
+    
+    var = '\''; // setting var to ', using escaped single quote
+    System.out.println(var); // prints '
   }
 }

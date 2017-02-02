@@ -1,0 +1,7 @@
+This text is printed and afterwards, a new line is started.
+34
+Here, we write the integer value 516 and then "COOL!", the result of the expression '0.22>0.25d ? "bla" : "COOL!"'.
+Here we just print some empty lines:
+
+
+...and that's all.

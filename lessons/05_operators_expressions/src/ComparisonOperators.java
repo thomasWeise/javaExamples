@@ -6,7 +6,7 @@ public class ComparisonOperators {
    * @param args
    *          we ignore this parameter for now
    */
-  public static void main(String[] args) {
+  public static final void main(String[] args) {
     double a = 5d, b = 6d; // allocate and initialize two double variables
     boolean c = (a == b); // allocate boolean c is true if a==b, false otherwise
     System.out.println(c); // false

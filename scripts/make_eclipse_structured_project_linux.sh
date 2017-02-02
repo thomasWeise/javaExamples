@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # $1: name of project
+# $2: "noExec" to not search and execute main routines
 
 # strict error handling
 set -o pipefail  # trace ERR through pipes
@@ -37,7 +38,14 @@ echo "Building..."
 cd "$sourceDir"
 javac -d "$binariesDir" $(find "$sourceDir" -name "*.java" -type f | grep ".java$")
 
-echo "Executing programs to see result..."
-find . -type f -name "*.java" -exec grep -q 'public static final void main(' {} \; -exec "$scriptDir/run_java_linux.sh" {} "$binariesDir" "$sourceDir" \;
-
+noExec="${2:-}"
+if [[ -z "$noExec" ]]; then
+  echo "Executing programs to see result..."
+  find . -type f -name "*.java" -exec grep -q 'public static final void main(final String' {} \; -exec "$scriptDir/run_java_linux.sh" {} "$binariesDir" "$sourceDir" \;
+  find . -type f -name "*.java" -exec grep -q 'public static final void main(String' {} \; -exec "$scriptDir/run_java_linux.sh" {} "$binariesDir" "$sourceDir" \;
+  find . -type f -name "*.java" -exec grep -q 'public static void main(final String' {} \; -exec "$scriptDir/run_java_linux.sh" {} "$binariesDir" "$sourceDir" \;
+  find . -type f -name "*.java" -exec grep -q 'public static void main(String' {} \; -exec "$scriptDir/run_java_linux.sh" {} "$binariesDir" "$sourceDir" \;
+else
+  echo "Not executing any program."
+fi
 echo "Successfully finished building the Eclipse-structured project '$1' in directory'$currentDir'."

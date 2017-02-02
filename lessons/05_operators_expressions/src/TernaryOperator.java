@@ -6,7 +6,7 @@ public class TernaryOperator {
    * @param args
    *          we ignore this parameter for now
    */
-  public static void main(String[] args) {
+  public static final void main(String[] args) {
     int a = 5, b = 11; // declare and initialize int variables a=5 and b=11
     double c = (a > b) ? -1d : 1d; // if a>b, set c=-1d; otherwise set c=1d;
     System.out.println(c); // prints 1.0

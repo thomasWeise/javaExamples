@@ -6,7 +6,7 @@ public class StringConcatenation {
    * @param args
    *          we ignore this parameter for now
    */
-  public static void main(String[] args) {
+  public static final void main(String[] args) {
     String text; // declare String variable text
     
     text = "Hello World!"; //store Hello World! in text //$NON-NLS-1$

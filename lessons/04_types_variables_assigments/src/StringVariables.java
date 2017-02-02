@@ -17,5 +17,8 @@ public class StringVariables {
     
     String niHao="\u597d\u4f60"; // set variable var to Hello in Chinese //$NON-NLS-1$
     System.out.println(niHao); // prints a Ni Hao
+    
+    var = "\"Hello\""; // set variable var to "Hello" (using escaped double quotes) //$NON-NLS-1$
+    System.out.println(var); // prints a "Hello"
   }
 }
