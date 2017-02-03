@@ -12,3 +12,5 @@ A repository for simple Java programming examples, as companion to a course in J
     * [Loops](lessons/08_loops/)
     * [Arrays](lessons/09_arrays/)
     * [Command Line Arguments](lessons/10_command_line_args/)
+    * [Static Methods](lessons/11_static_methods/)
+    * [Static Methods](lessons/12_static_variables/)
