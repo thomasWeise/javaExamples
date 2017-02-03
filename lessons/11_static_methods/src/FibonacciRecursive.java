@@ -6,11 +6,11 @@ public class FibonacciRecursive {
    * @param i the index of the number to compute
    * @return ith Fibonacci number 
    */
-  static long F(long i) {
+  static long F(int i) {
     if((i == 1L) || (i == 2L)) { 
       return 1L; // take care of cases F(1) and F(2)
     }
-    return F(i-1L) + F(i-2L); // recurse
+    return F(i-1) + F(i-2); // recurse
   }
 
   /**
@@ -20,7 +20,7 @@ public class FibonacciRecursive {
    *          we ignore this parameter
    */
   public static final void main(String[] args) {
-    for(long i = 1L; i <= 40L; i++){ // print the first 40 Fibonacci numbers
+    for(int i = 1; i <= 40; i++){ // print the first 40 Fibonacci numbers
       System.out.print("F("); //$NON-NLS-1$
       System.out.print(i);
       System.out.print(") = "); //$NON-NLS-1$
