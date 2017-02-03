@@ -14,4 +14,5 @@ Our course is divided in the following lessons:
 * [Arrays](09_arrays/)
 * [Command Line Arguments](10_command_line_args/)
 * [Static Methods](11_static_methods/)
-* [Static Methods](12_static_variables/)
+* [Static Variables](12_static_variables/)
+* [Debugging](13_debugging/)
