@@ -2,12 +2,10 @@ import java.util.Scanner; // import the scanner class: ignore this for now
 
 /** Examples for using if-then-else */
 public class HelloIfThenElse {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     Scanner scanner = new Scanner(System.in); // initiate reading from System.in, ignore for now
 

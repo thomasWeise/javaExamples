@@ -1,11 +1,9 @@
 /** Examples for using command line arguments (and if-then-else) */
 public class HelloSwitchCaseArgs {
-  /**
-   * The main routine
-   * 
+  
+  /** The main routine
    * @param args
-   *          the command line arguments of the program (no longer ignored ^_^)
-   */
+   *          the command line arguments of the program (no longer ignored ^_^) */
   public static final void main(String[] args) {
 
     if (args.length < 2) { // check if there are at least two arguments, if not, print help and exit

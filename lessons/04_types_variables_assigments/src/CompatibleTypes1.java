@@ -1,11 +1,9 @@
 /** Examples for lesslessly compatible variables */
 public class CompatibleTypes1 {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(final String[] args) {
     byte myByte = -128; // allocate byte variable "myByte"
     short myShort = myByte; // store value of myByte into variable myShort

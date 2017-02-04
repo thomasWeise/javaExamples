@@ -1,12 +1,9 @@
 /** A program testing BinarySearchRight. */
 public class BinarySearchRightTest {
 
-  /**
-   * The main routine
-   * 
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter */
   public static final void main(String[] args) {
     
     int[] array = {0, 1, 2, 3, 5, 6};

@@ -1,11 +1,9 @@
 /** Examples for int-to-float compatibility */
 public class CompatibleTypes2Float {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(final String[] args) {
     byte myByte = -128; // allocate byte variable "myByte"
     float myFloat = myByte; // store value of myByte into variable myFloat

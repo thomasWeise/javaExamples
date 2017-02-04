@@ -1,11 +1,9 @@
 /** Examples for using System.out */
 public class SystemOut {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {    
     System.out.println("This text is printed and afterwards, a new line is started."); //$NON-NLS-1$
     System.out.println(34); // just write a number and start a new line

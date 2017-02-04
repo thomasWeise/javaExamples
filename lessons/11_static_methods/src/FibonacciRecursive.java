@@ -13,12 +13,9 @@ public class FibonacciRecursive {
     return F(i-1) + F(i-2); // recurse
   }
 
-  /**
-   * The main routine
-   * 
+  /** The main routine
    * @param args
-   *          we ignore this parameter
-   */
+   *          we ignore this parameter */
   public static final void main(String[] args) {
     for(int i = 1; i <= 40; i++){ // print the first 40 Fibonacci numbers
       System.out.print("F("); //$NON-NLS-1$

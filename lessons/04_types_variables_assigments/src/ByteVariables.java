@@ -1,11 +1,9 @@
 /** Examples for byte variables */
 public class ByteVariables {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(final String[] args) {
     byte var; // allocate byte variable "var"
 

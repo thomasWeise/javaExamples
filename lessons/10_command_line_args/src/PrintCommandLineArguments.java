@@ -3,12 +3,10 @@
  *                   -> new -> (x)= arguments -> program arguments
  *                   (type arguments space-separated in that field) */
 public class PrintCommandLineArguments {
-  /**
-   * The main routine
-   * 
+  
+  /**The main routine
    * @param args
-   *          the command line arguments of the program (no longer ignored ^_^)
-   */
+   *          the command line arguments of the program (no longer ignored ^_^) */
   public static final void main(String[] args) {
     System.err.println("There were " + //$NON-NLS-1$
         args.length + // the number of command line arguments

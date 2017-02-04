@@ -29,12 +29,9 @@ public class MultiplyMatrices {
     return result; // return result
   }
 
-  /**
-   * The main routine
-   * 
+  /** The main routine
    * @param args
-   *          we ignore this parameter
-   */
+   *          we ignore this parameter */
   public static final void main(String[] args) {
     double[][] a = { { 4d, 3d }, { 2d, 1d } }; // allocate and initialize first matrix
     double[][] b = { { -0.5d, 1.5d }, { 1d, -2d } }; // allocate and initialize second matrix

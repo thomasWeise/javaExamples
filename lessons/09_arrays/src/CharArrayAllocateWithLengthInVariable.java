@@ -1,12 +1,10 @@
 /** Example for allocating an array of a length stored in a variable and 
  *  iterating over a character array */
 public class CharArrayAllocateWithLengthInVariable {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     int neededLength = 'Z' - 'A' + 1; // yes, this is allowed, as characters are internally numbers
     char[] AtoZ; // notice how we declare the array here, but actually allocate it later: we can do that!    

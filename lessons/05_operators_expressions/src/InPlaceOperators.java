@@ -1,11 +1,9 @@
 /** Examples for in-place operators */
 public class InPlaceOperators {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     int i = 1, j = 5; // declare the two integer variables i and j, where i=1 and j=5
         

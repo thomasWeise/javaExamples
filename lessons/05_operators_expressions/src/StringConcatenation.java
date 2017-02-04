@@ -1,11 +1,9 @@
 /** Examples for String concatenation */
 public class StringConcatenation {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     String text; // declare String variable text
     

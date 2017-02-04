@@ -1,11 +1,9 @@
 /** Example for allocating and using 2d-int arrays of different row size and iterating over them */
 public class IntArray2DwithDifferentLengthRowsNewIterate {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     int[][] array;// delare array variable
 

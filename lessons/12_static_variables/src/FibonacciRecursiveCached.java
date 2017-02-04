@@ -25,12 +25,9 @@ public class FibonacciRecursiveCached {
     return F(i-1) + F(i-2); // i is too big, just recurse
   }
 
-  /**
-   * The main routine
-   * 
+  /** The main routine
    * @param args
-   *          we ignore this parameter
-   */
+   *          we ignore this parameter */
   public static final void main(String[] args) {
     for (int i = 1; i <= 90; i++) { // print the first 90 Fibonacci numbers
       System.out.print("F("); //$NON-NLS-1$

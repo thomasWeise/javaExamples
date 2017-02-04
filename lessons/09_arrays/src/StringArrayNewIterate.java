@@ -1,11 +1,9 @@
 /** Example for allocating and using a string arrays and iterating over them */
 public class StringArrayNewIterate {
-  /**
-   * The main routine
-   * 
+  
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     String[] array = new String[4]; // create an string array for length 4
 

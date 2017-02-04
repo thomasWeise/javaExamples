@@ -1,11 +1,9 @@
 /** Examples for boolean operators */
 public class BooleanOperators {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     boolean res; // declare boolean variable res
     

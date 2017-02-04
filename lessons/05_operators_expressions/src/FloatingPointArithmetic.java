@@ -1,11 +1,9 @@
 /** Examples for floating point arithmetic */
 public class FloatingPointArithmetic {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     double res1, res2; // declare double variable res1 and res2
     

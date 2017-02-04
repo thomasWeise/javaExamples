@@ -1,11 +1,9 @@
 /** Examples for integer arithmetic */
 public class IntegerArithmetic {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     int res; // declare int variable res
     

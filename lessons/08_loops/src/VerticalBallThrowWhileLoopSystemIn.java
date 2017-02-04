@@ -7,12 +7,10 @@ import java.util.Scanner;
  * Allow user to enter arbitrarily many values for t
  */
 public class VerticalBallThrowWhileLoopSystemIn {
-  /**
-   * The main routine
-   * 
+  
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     double x0 = 1.8d; // initial vertical position
     double v0 = 10d; // initial velocity upwards

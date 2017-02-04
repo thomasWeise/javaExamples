@@ -16,12 +16,9 @@ public class VerticalBallThrowFunction {
     return x0 + (v0 * t) - 0.5d * 9.80665d * t * t;
   }
 
-  /**
-   * The main routine
-   * 
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter */
   public static final void main(String[] args) {
     for (int i = 0; i < 12; i++) { // using an integer for counting
       System.out.println(position(1.8d, 10d, 0.2d * i)); // prints the current position

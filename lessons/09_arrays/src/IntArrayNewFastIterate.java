@@ -1,11 +1,9 @@
 /** Example for allocating and using a int arrays and iterating over them */
 public class IntArrayNewFastIterate {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     int[] array = new int[5]; // create an integer array for length 5
 

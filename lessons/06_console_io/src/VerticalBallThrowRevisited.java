@@ -6,12 +6,10 @@ import java.util.Scanner;
  * $x(t) = x_0 + v_0*t - 0.5 * g * t^2$
  */
 public class VerticalBallThrowRevisited {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     Scanner scanner = new Scanner(System.in); // initiate reading from System.in, ignore for now
     System.err.println("Enter size x0 of personin m:"); //$NON-NLS-1$

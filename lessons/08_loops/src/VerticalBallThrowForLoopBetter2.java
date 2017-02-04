@@ -4,12 +4,10 @@
  * $x(t) = x_0 + v_0*t - 0.5 * g * t^2$
  */
 public class VerticalBallThrowForLoopBetter2 {
-  /**
-   * The main routine
-   * 
+
+  /** The main routine
    * @param args
-   *          we ignore this parameter for now
-   */
+   *          we ignore this parameter for now */
   public static final void main(String[] args) {
     double x0 = 1.8d; // initial vertical position
     double v0 = 10d; // initial velocity upwards

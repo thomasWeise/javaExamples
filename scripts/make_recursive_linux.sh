@@ -11,4 +11,4 @@ echo "We now build $1 in directory '$currentDir'."
 
 find . -mindepth 2 -maxdepth 2 -name "make_linux.sh" -type f -execdir "{}" \;
 
-echo "Successfully finished building $1 directory'$currentDir'."
+echo "Successfully finished building $1 directory '$currentDir'."
