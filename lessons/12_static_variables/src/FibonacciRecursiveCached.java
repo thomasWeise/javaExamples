@@ -1,5 +1,5 @@
-/** An example program computing Fibonacci numbers $F(n)=F(n-1)+F(n-2)$
- * with $F(1)=F(2)=1$ recursively using a cache for faster computation. */
+/** An example program computing Fibonacci numbers `F(n)=F(n-1)+F(n-2)`
+ * with `F(1)=F(2)=1` recursively using a cache for faster computation. */
 public class FibonacciRecursiveCached {
 
   /** a cache variable */
@@ -14,7 +14,7 @@ public class FibonacciRecursiveCached {
    */
   static long F(int i) {
     if ((i == 1L) || (i == 2L)) {
-      return 1; // take care of cases F(1) and F(2)
+      return 1; // take care of cases `F(1)` and `F(2)`
     }
     if (i < CACHE.length) { // is i small enough to use the cache?
       if (CACHE[i] > 0) { // has F(i) already been computed ?

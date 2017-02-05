@@ -1,5 +1,5 @@
-/** An example program computing Fibonacci numbers $F(n)=F(n-1)+F(n-2)$ with
- *  $F(1)=F(2)=1$ recursively. */
+/** An example program computing Fibonacci numbers `F(n)=F(n-1)+F(n-2)` with
+ *  `F(1)=F(2)=1` recursively. */
 public class FibonacciRecursive {
 
   /** Recursively compute the ith Fibonacci number
@@ -8,7 +8,7 @@ public class FibonacciRecursive {
    */
   static long F(int i) {
     if((i == 1L) || (i == 2L)) { 
-      return 1L; // take care of cases F(1) and F(2)
+      return 1L; // take care of cases `F(1)` and `F(2)`
     }
     return F(i-1) + F(i-2); // recurse
   }

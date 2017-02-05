@@ -1,7 +1,7 @@
 /**
  * A ball is thrown vertically upwards into the air by a 1.8m tall person<br/>
- * with velocity 10m/s. Where is it after t=0, 0.2, ..., 2.2 seconds?<br/>
- * $x(t) = x_0 + v_0*t - 0.5 * g * t^2$
+ * with velocity 10m/s. Where is it after `t=0, 0.2, \dots, 2.2` seconds?<br/>
+ * `x(t) = x_0 + v_0*t - 0.5*g*t^2`
  */
 public class VerticalBallThrowFunctionAndConstants {
   
@@ -12,8 +12,8 @@ public class VerticalBallThrowFunctionAndConstants {
    *                                              what the method does)
    * @param x0 the height of the thrower, i.e., the initial vertical position
    * @param v0 the vertical upward velocity with which the ball is thrown
-   * @param t the time at which we want to get the position x(t)
-   * @return the position x(t) of the ball at time step t
+   * @param t the time at which we want to get the position `x(t)`
+   * @return the position `x(t)` of the ball at time step t
    */
   static double position(double x0, double v0, double t) {
     return x0 + (v0 * t) - 0.5d * G * t * t;

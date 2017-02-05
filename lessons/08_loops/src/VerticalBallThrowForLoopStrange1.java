@@ -1,7 +1,7 @@
 /**
  * A ball is thrown vertically upwards into the air by a 1.8m tall person<br/>
- * with velocity 10m/s. Where is it after t=0, 0.2, ..., 2.2 seconds?<br/>
- * $x(t) = x_0 + v_0*t - 0.5 * g * t^2$
+ * with velocity 10m/s. Where is it after `t=0, 0.2, \dots, 2.2` seconds?<br/>
+ * `x(t) = x_0 + v_0*t - 0.5*g*t^2`
  */
 public class VerticalBallThrowForLoopStrange1 {
 
