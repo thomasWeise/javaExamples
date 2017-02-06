@@ -7,8 +7,8 @@ public class Professor extends Person { // class Processor extends class Person
     super(_familyName, _givenName); 
   }
   
-  /** return "Prof. " + the result of super.toString() = Person.toString() */
-  @Override // mark this method explicitly as overridden: explicitly remind programmers about this
+  /** return "Prof. " + result of super.toString() = Person.toString() */
+  @Override // mark this method explicitly as overridden
   public String toString() { 
     return "Prof. " + super.toString(); //$NON-NLS-1$
   }

@@ -1,24 +1,20 @@
 package cn.edu.hfuu.iao.io;
 
-import java.util.Scanner; // import class Scanner from the java.util package
-
-import cn.edu.hfuu.iao.person.Person;
-
-/** a class to read a person record from stdin*/
+/** a class to read a person record from stdin: using canonical class names*/
 public class PersonReader {
   
   /** the constructor */
   public PersonReader(){  
   }
   
-  /** read a person record from stdin
+  /** Read a person record from stdin. All class names are specified canonically
    * @return the new person record  */
-  public Person read(Scanner scanner) {    
+  public cn.edu.hfuu.iao.person.Person read(java.util.Scanner scanner) {    
     System.err.println("Enter person's family name:"); //$NON-NLS-1$
-    String familyName = scanner.nextLine();    
+    String familyName = scanner.nextLine(); // read a string from scanner
     System.err.println("Enter person's given name:"); //$NON-NLS-1$
-    String givenName = scanner.nextLine();
+    String givenName = scanner.nextLine(); // read a string from scanner
     
-    return new Person(familyName, givenName);
+    return new cn.edu.hfuu.iao.person.Person(familyName, givenName);
   }
 }

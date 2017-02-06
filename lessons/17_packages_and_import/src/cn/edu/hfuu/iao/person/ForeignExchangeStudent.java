@@ -13,7 +13,7 @@ public class ForeignExchangeStudent extends Student {
   }
 
   /** override toString() from Person */
-  @Override
+  @Override // mark this method explicitly as overridden
   public String toString() {
     return super.toString() + " from " + this.homeCountry;//$NON-NLS-1$
   }

@@ -12,6 +12,7 @@ public class Student extends Person { // class Student extends class Person
   }
   
   /** return a string representation of this student record */
+  @Override // mark this method explicitly as overridden
   public String toString() {
     return "student " + super.toString(); //$NON-NLS-1$
   }
