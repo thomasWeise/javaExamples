@@ -38,6 +38,8 @@ echo "Building..."
 cd "$sourceDir"
 javac -d "$binariesDir" $(find "$sourceDir" -name "*.java" -type f | grep ".java$")
 
+echo "Compiler returned exit code '$?'."
+
 noExec="${2:-}"
 if [[ -z "$noExec" ]]; then
   echo "Executing programs to see result..."

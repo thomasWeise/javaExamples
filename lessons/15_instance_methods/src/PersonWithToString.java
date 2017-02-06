@@ -16,12 +16,9 @@ public class PersonWithToString {
     return this.givenName + ' ' + this.familyName;
   }
 
-  /**
-   * The main routine
-   * 
-   * @param args
-   *          we ignore this parameter
-   */
+  /** The main routine
+   *  @param args
+   *          we ignore this parameter */
   public static final void main(String[] args) {
     PersonWithToString weise = new PersonWithToString("Weise", "Thomas"); //$NON-NLS-1$//$NON-NLS-2$
     System.out.println(weise.toString()); // print a string representing the weise object

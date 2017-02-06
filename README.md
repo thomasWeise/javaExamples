@@ -17,3 +17,4 @@ A repository for simple Java programming examples, as companion to a course in J
     * [Debugging](lessons/13_debugging/)
     * [Objects, Members, and `new`](lessons/14_objects_instance_vars_new/)
     * [Instance Methods](lessons/15_instance_methods/)
+    * [Inheritance and Overriding](lessons/16_inheritance_and_overriding/)

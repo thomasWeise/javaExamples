@@ -1,12 +1,9 @@
 /** testing the complex number calculator */
 public class ComplexNumberTest {
 
-  /**
-   * The main routine
-   * 
-   * @param args
-   *          we ignore this parameter
-   */
+  /** The main routine
+   *  @param args
+   *          we ignore this parameter */
   public static final void main(String[] args) {
     ComplexNumber a, b, res;
 

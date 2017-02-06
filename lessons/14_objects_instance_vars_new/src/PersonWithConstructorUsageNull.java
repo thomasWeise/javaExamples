@@ -1,6 +1,6 @@
 /** Using class PersonWithConstructor representing a person:
  *  allocation, member variable setting, null, disposal. */
-public class PersonWithConstructorUsage {
+public class PersonWithConstructorUsageNull {
   
   /** The main routine
    *  @param args
@@ -20,8 +20,7 @@ public class PersonWithConstructorUsage {
     System.out.println(weise.givenName); // print the givenName of weise: "Jacky"
     System.out.println(chan.givenName); // print the given name of Chan: "Kong-sang"
     
-    weise = chan; // variables weise and chan now point to same object. this is NOT a copy
-                  // the original weise object can eventually be disposed by GC, since it is no longer needed
+    weise = chan; // variables weise and chan now point to same object. this is NOT a copy: original weise object can be disposed by GC
     System.out.println(weise.givenName); // print the givenName of weise: "Kong-sang"
     System.out.println(weise.familyName); // print the familyName of weise: "Chan"
     
@@ -32,5 +31,16 @@ public class PersonWithConstructorUsage {
     chan = weise; // nothing changes, both variables still point to same object
     System.out.println(chan.familyName); // print the familyName of Chan: "Kong-sang"
     System.out.println(chan.givenName); // print the given name of Chan: "Chan"
+
+    chan = null; // variable chan now does not point to an object anymore, but original chan object still referenced by weise
+    System.out.println(weise.givenName); // print the givenName of weise: "Kong-sang"
+    System.out.println(weise.familyName); // print the familyName of weise: "Chan"
+    
+    weise.givenName = null; // given name of weise is now null (btw, the string "Kong-sang" can eventually be disposed by GC)
+    System.out.println(weise.givenName); // print the givenName of weise: null
+    
+    weise = null; // variable weise now does not point to an object anymore, original chan object no longer used, will eventually be disposed
+    // System.out.println(weise.givenName); // this would crash: we do not point to any object
+    // System.out.println(weise.familyName); // this would crash: we do not point to any object
   }
 }

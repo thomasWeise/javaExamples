@@ -7,7 +7,7 @@ public class Person {
   String givenName;
   
   /** The main routine
-   * @param args
+   *  @param args
    *          we ignore this parameter */
   public static final void main(String[] args) {
     Person weise = new Person(); // create person object  
