@@ -19,3 +19,4 @@ Our course is divided in the following lessons:
 * [Objects, Member Variables, and `new`](14_objects_instance_vars_new/)
 * [Instance Methods](15_instance_methods/)
 * [Inheritance and Overriding](16_inheritance_and_overriding/)
+* [Packages and Import](17_packages_and_import/)
