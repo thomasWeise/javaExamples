@@ -17,3 +17,4 @@ Our course is divided in the following lessons:
 * [Static Variables](12_static_variables/)
 * [Debugging](13_debugging/)
 * [Objects, Member Variables, and `new`](14_objects_instance_vars_new/)
+* [Instance Methods](15_instance_methods/)

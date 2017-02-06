@@ -16,3 +16,4 @@ A repository for simple Java programming examples, as companion to a course in J
     * [Static Variables](lessons/12_static_variables/)
     * [Debugging](lessons/13_debugging/)
     * [Objects, Members, and `new`](lessons/14_objects_instance_vars_new/)
+    * [Instance Methods](lessons/15_instance_methods/)
