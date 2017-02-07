@@ -20,3 +20,4 @@ Our course is divided in the following lessons:
 * [Instance Methods](15_instance_methods/)
 * [Inheritance and Overriding](16_inheritance_and_overriding/)
 * [Packages and Import](17_packages_and_import/)
+* [Visibility, Encapsulation, `final`, and `static` Inner Classes](18_visibility_encapsulation_final_inner/)

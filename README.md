@@ -19,3 +19,4 @@ A repository for simple Java programming examples, as companion to a course in J
     * [Instance Methods](lessons/15_instance_methods/)
     * [Inheritance and Overriding](lessons/16_inheritance_and_overriding/)
     * [Packages and Import](lessons/17_packages_and_import/)
+    * [Visibility, Encapsulation, `final`, and `static` Inner Classes](lessons/18_visibility_encapsulation_final_inner/)
