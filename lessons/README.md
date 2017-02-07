@@ -22,3 +22,4 @@ Our course is divided in the following lessons:
 * [Packages and Import](17_packages_and_import/)
 * [Visibility, Encapsulation, `final`, and `static` Inner Classes](18_visibility_encapsulation_final_inner/)
 * [Documentation with Javadoc](19_documentation_with_javadoc/)
+* [Type Casts](20_type_casts/)
