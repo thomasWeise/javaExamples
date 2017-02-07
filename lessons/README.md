@@ -23,3 +23,5 @@ Our course is divided in the following lessons:
 * [Visibility, Encapsulation, `final`, and `static` Inner Classes](18_visibility_encapsulation_final_inner/)
 * [Documentation with Javadoc](19_documentation_with_javadoc/)
 * [Type Casts](20_type_casts/)
+* [Generics](21_generics/)
+* [Collections, `equals`, `hashCode`](22_collections_equals_hashCode/)

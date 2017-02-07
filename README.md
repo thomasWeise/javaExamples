@@ -22,3 +22,5 @@ A repository for simple Java programming examples, as companion to a course in J
     * [Visibility, Encapsulation, `final`, and `static` Inner Classes](lessons/18_visibility_encapsulation_final_inner/)
     * [Documentation with Javadoc](lessons/19_documentation_with_javadoc/)
     * [Type Casts](lessons/20_type_casts/)
+    * [Generics](lessons/21_generics/)
+    * [Collections, `equals`, `hashCode`](lessons/22_collections_equals_hashCode/)
