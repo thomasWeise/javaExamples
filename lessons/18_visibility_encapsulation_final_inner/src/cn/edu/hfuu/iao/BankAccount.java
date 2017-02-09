@@ -31,9 +31,9 @@ public class BankAccount {
   /** withdraw some money from the bank account */
   public void withdraw(long amount) {
     if((amount > 0L) && (amount < 1_000_00L)) { // sanity check: you can only withdraw a positive amount of        
-      this.balance += amount;                   // money and at most 1000 RMB at once
+      this.balance -= amount;                   // money and at most 1000 RMB at once
     } else {
-      System.out.println("Invalid deposit amount " + amount + //$NON-NLS-1$
+      System.out.println("Invalid withdrawal amount " + amount + //$NON-NLS-1$
           " for account " + this); //$NON-NLS-1$
     }
   }
@@ -52,6 +52,6 @@ public class BankAccount {
   }
   
   public String toString() {
-    return this.accountNumber + ": " + this.balance; //$NON-NLS-1$
+    return '(' + this.accountNumber + ": " + this.balance + ')'; //$NON-NLS-1$
   }
 }

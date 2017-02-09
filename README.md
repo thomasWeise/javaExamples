@@ -24,3 +24,5 @@ A repository for simple Java programming examples, as companion to a course in J
     * [Type Casts](lessons/20_type_casts/)
     * [Generics](lessons/21_generics/)
     * [Collections, `equals`, `hashCode`](lessons/22_collections_equals_hashCode/)
+    * [Abstract Classes and Interfaces](lessons/23_abstract_classes_and_interfaces/)
+    * [Exceptions](lessons/24_exceptions/)
