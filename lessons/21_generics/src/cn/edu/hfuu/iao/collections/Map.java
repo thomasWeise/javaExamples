@@ -1,6 +1,6 @@
 package cn.edu.hfuu.iao.collections;
 
-/** a map which stores key-value relationships */
+/** a non-generic, Object-based map which stores key-value relationships */
 public final class Map {
 
   /** the entry list: see the private class Pair below */
@@ -15,7 +15,7 @@ public final class Map {
   public final void put(final Object key, final Object value) {
     for (int index = 0; index < this.entries.length; index++) {     // first check all stored keys
       if (this.entries[index] == null) {                            // if we get here, we have reached the end of the map
-        this.entries[index] = new Pair(key, value);                // since we did not find key, just put a new entry
+        this.entries[index] = new Pair(key, value);                 // since we did not find key, just put a new entry
         return; // and we can exit
       }
       if (this.entries[index].key == key) {                         // check if there already is an entry for the specified key
@@ -23,9 +23,9 @@ public final class Map {
         return;                                                     // and can exit
       }
     } // if we get to after the loop, this means that the entry list is full, but does not contain key
-    Pair[] newEntries = new Pair[this.entries.length * 2];        // so we need to allocate a larger entry list
+    Pair[] newEntries = new Pair[this.entries.length * 2];          // so we need to allocate a larger entry list
     for(int i = this.entries.length; (--i) >= 0; ) { newEntries[i] = this.entries[i]; } // copy all existing entries
-    newEntries[this.entries.length] = new Pair(key, value);        // and at the end of this list, we put the new entry
+    newEntries[this.entries.length] = new Pair(key, value);         // and at the end of this list, we put the new entry
     this.entries = newEntries;                                      // and store the new entry list
   }
   

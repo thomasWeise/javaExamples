@@ -1,6 +1,6 @@
 package cn.edu.hfuu.iao.collections;
 
-/** a key-value pair */
+/** a non-generic, Object-based key-value pair */
 public class Pair {
   /** the key object */
   public final Object key;
