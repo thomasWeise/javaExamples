@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-/** a test for array list */
+/** a test for array list, which allows us to store and manipulate a sequence of objects */
 public class ArrayListTest {
   /** The main routine 
    *  @param args  we ignore this parameter */
