@@ -25,5 +25,6 @@ Our course is divided in the following lessons:
 * [Type Casts](20_type_casts/)
 * [Generics](21_generics/)
 * [Collections, `equals`, `hashCode`](22_collections_equals_hashCode/)
-* [Abstract Classes and Interfaces](23_abstract_classes_and_interfaces/)
-* [Exceptions](24_exceptions/)
+* [Abstract Classes](23_abstract_classes/)
+* [Interfaces](24_interfaces/)
+* [Exceptions](25_exceptions/)
