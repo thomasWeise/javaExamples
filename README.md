@@ -27,3 +27,4 @@ A repository for simple Java programming examples, as companion to a course in J
     * [Abstract Classes](lessons/23_abstract_classes/)
     * [Interfaces](lessons/24_interfaces/)    
     * [Exceptions](lessons/25_exceptions/)
+    * [Libraries](lessons/26_libraries_and_executables/)
