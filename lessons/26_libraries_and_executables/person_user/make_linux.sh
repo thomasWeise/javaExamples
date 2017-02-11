@@ -6,4 +6,10 @@ set -o errtrace  # trace ERR through 'time command' and other functions
 set -o nounset   # set -u : exit the script if you try to use an uninitialised variable
 set -o errexit   # set -e : exit the script if any statement returns a non-true return value
 
-"../../scripts/make_eclipse_structured_project_linux.sh" 'vertical ball throw executable' noExec
+cd src
+javac -d ../bin -cp .:../libs/person.jar Main.java
+
+cd ../bin
+echo "p
+Weise
+Thomas" | java -cp .:../libs/person.jar Main
