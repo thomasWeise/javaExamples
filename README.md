@@ -30,3 +30,4 @@ A repository for simple Java programming examples, as companion to a course in J
     * [Libraries](lessons/26_libraries_and_executables/)
     * [Testing with JUnit](lessons/27_testing_with_junit/)
     * [I/O and Streams](lessons/28_io_and_streams/)
+    * [Autoboxing](lessons/29_autoboxing/)

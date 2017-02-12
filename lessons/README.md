@@ -31,3 +31,4 @@ Our course is divided in the following lessons:
 * [Libraries and Executables](26_libraries_and_executables/)
 * [Testing with JUnit](27_testing_with_junit/)
 * [I/O and Streams](28_io_and_streams/)
+* [Autoboxing](29_autoboxing/)
