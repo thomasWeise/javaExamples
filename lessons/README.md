@@ -29,3 +29,5 @@ Our course is divided in the following lessons:
 * [Interfaces](24_interfaces/)
 * [Exceptions](25_exceptions/)
 * [Libraries and Executables](26_libraries_and_executables/)
+* [Testing with JUnit](27_testing_with_junit/)
+* [I/O and Streams](28_io_and_streams/)
