@@ -1,6 +1,8 @@
-# javaExamples
+# Object-Oriented Programming with Java: Examples
 
-A repository for simple Java programming examples, as companion to a course in Java programming.
+[<img alt="CircleCI Build Status" src="https://img.shields.io/circleci/project/thomasWeise/javaExamples.svg" height="20"/>](https://circleci.com/gh/thomasWeise/javaExamples)
+
+A repository for simple Java programming examples, as companion to the course [Object-Oriented Programming with Java](http://iao.hfuu.edu.cn/index.php/teaching/oop-with-java).
 
 - [Lessons](lessons)
     * [Installing Java, Compiling, and Running Programs](lessons/02_java/)
@@ -31,3 +33,4 @@ A repository for simple Java programming examples, as companion to a course in J
     * [Testing with JUnit](lessons/27_testing_with_junit/)
     * [I/O and Streams](lessons/28_io_and_streams/)
     * [Autoboxing](lessons/29_autoboxing/)
+    * [Building with Maven](lessons/30_building_with_maven/)

@@ -1,0 +1,15 @@
+##
+## Build with CircleCI
+##
+## https://circleci.com/gh/thomasWeise/javaExamples
+#
+# We do nothing here.
+dependencies:
+  override:
+    - echo "Nothing"
+      
+# We set a high timeout to prevent the test from being
+# terminated unexpectedly.
+test:
+  override:
+    - ./make_linux.sh

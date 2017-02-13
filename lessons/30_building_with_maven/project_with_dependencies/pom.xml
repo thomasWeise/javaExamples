@@ -1,0 +1,172 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.edu.hfuu.iao</groupId>
+	<artifactId>project-with-dependencies</artifactId>
+	<version>0.0.1</version>
+	<name>Project with Dependencies</name>
+	<description>A Maven project with dependencies and more information,
+also generating an executable JAR and Javadoc.</description>
+
+
+	<url>http://iao.hfuu.edu.cn/</url>
+	<organization>
+		<url>http://iao.hfuu.edu.cn/</url>
+		<name>Institute of Applied Optimization (IAO)</name>
+	</organization>
+
+	<developers>
+		<developer>
+			<id>thomasWeise</id>
+			<name>Thomas Weise</name>
+			<email>tweise@hfuu.edu.cn</email>
+			<url>http://iao.hfuu.edu.cn/index.php/team/director/</url>
+			<organization>Institute of Applied Optimization (IAO)</organization>
+			<organizationUrl>http://iao.hfuu.edu.cn/</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>China Time Zone</timezone>
+		</developer>
+	</developers>
+
+	<properties>
+		<encoding>UTF-8</encoding>
+		<project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
+		<jdk.version>1.8</jdk.version>
+	</properties>
+
+	<licenses>
+		<license>
+			<name>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</name>
+			<url>http://www.gnu.org/licenses/gpl-3.0-standalone.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<issueManagement>
+		<url>https://github.com/thomasWeise/javaExamples/issues</url>
+		<system>GitHub</system>
+	</issueManagement>
+
+	<scm>
+		<connection>scm:git:git@github.com:thomasWeise/javaExamples.git</connection>
+		<developerConnection>
+		   scm:git:git@github.com:thomasWeise/javaExamples.git</developerConnection>
+		<url>git@github.com:thomasWeise/javaExamples.git</url>
+	</scm>
+
+	<inceptionYear>2017</inceptionYear>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.6.1</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
+					<encoding>${encoding}</encoding>
+					<showWarnings>true</showWarnings>
+					<showDeprecation>true</showDeprecation>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.9.1</version>
+				<configuration>
+					<show>private</show>
+					<detectLinks>true</detectLinks>
+					<detectJavaApiLink>true</detectJavaApiLink>
+					<quiet>true</quiet>
+				</configuration>
+				<executions>
+					<execution>
+						<id>attach-javadoc</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>2.3</version>
+				<configuration>
+					<includePom>true</includePom>
+					<useDefaultExcludes>true</useDefaultExcludes>
+					<useDefaultManifestFile>false</useDefaultManifestFile>
+				</configuration>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addDefaultImplementationEntries />
+							<addDefaultSpecificationEntries />
+							<mainClass>cn.edu.hfuu.iao.Main</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>attached</goal>
+						</goals>
+						<phase>package</phase>
+						<configuration>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+							<archive>
+								<manifest>
+									<mainClass>cn.edu.hfuu.iao.Main</mainClass>
+								</manifest>
+							</archive>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>

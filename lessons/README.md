@@ -32,3 +32,4 @@ Our course is divided in the following lessons:
 * [Testing with JUnit](27_testing_with_junit/)
 * [I/O and Streams](28_io_and_streams/)
 * [Autoboxing](29_autoboxing/)
+* [Building with Maven](30_building_with_maven/)
