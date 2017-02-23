@@ -13,13 +13,13 @@ public class DoubleVariables {
     double fraction = 0.8d; // allocate and set variable faction to 0.8
     System.out.println(fraction); // prints 0.8
 
-    var = 4.9e-324d; // set variable var to 4.9 * 10^-324 The "E" means "10^"
+    var = 4.9e-324d; // set variable var to `4.9 * 10^{-324}`, the "aaaExxx" means "`aaa*10^{xxx}`"
     System.out.println(var); // prints 4.9E-324
     
-    var = 1.7976931348623157e308d; // set variable var to 1.7976931348623157 * 10^308
+    var = 1.7976931348623157e308d; // set variable var to `1.7976931348623157 * 10^{308}`
     System.out.println(var); // prints 1.7976931348623157E308d
     
-    double pi = 3.141592653589793238462643383279502884197169399375105820974944592307816406286d; // set pi to, well, pi
+    double pi = 3.141592653589793238462643383279502884197169399375105820974944592307816406286d; // set pi to, well, `\pi`
     System.out.println(pi); // prints 3.141592653589793 <- precision of double is about 15 decimals 
   }
 }
