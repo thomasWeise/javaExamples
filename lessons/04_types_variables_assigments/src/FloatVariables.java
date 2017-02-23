@@ -8,7 +8,7 @@ public class FloatVariables {
     float var; // allocate float variable "var"
 
     var = -1f; // set variable var to -1; notice the "f" marking the "float" literal for the compiler
-    System.out.println(var); // prints -1
+    System.out.println(var); // prints -1.0
     
     float fraction = 0.8f; // allocate and set variable faction to 0.8
     System.out.println(fraction); // prints 0.8

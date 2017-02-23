@@ -8,7 +8,7 @@ public class DoubleVariables {
     double var; // allocate double variable "var"
 
     var = -1d; // set variable var to -1; notice the "d" marking the "double" literal for the compiler
-    System.out.println(var); // prints -1
+    System.out.println(var); // prints -1.0
     
     double fraction = 0.8d; // allocate and set variable faction to 0.8
     System.out.println(fraction); // prints 0.8
