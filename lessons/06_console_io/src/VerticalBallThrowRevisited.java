@@ -12,7 +12,7 @@ public class VerticalBallThrowRevisited {
    *          we ignore this parameter for now */
   public static final void main(String[] args) {
     Scanner scanner = new Scanner(System.in); // initiate reading from System.in, ignore for now
-    System.err.println("Enter size x0 of personin m:"); //$NON-NLS-1$
+    System.err.println("Enter size x0 of person in m:"); //$NON-NLS-1$
     double x0 = scanner.nextDouble(); // read initial vertical position `x_0`
     System.err.println("Enter initial upward velocity v0 of ball in m/s:"); //$NON-NLS-1$
     double v0 = scanner.nextDouble(); // read initial velocity upwards `v_0`
