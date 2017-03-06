@@ -17,6 +17,6 @@ public class IntArrayNewIterateBreak {
         break;
       }
       System.out.print(in);
-    }
+    } // prints "12"
   }
 }

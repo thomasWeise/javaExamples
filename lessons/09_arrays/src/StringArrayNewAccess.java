@@ -12,16 +12,16 @@ public class StringArrayNewAccess {
     array[2] = ", it's "; //$NON-NLS-1$
     array[3] = "me!"; //$NON-NLS-1$
 
-    System.out.print(array[0]);
-    System.out.print(array[1]);
-    System.out.print(array[2]);
-    System.out.println(array[3]);
+    System.out.print(array[0]);   // prints "hello "
+    System.out.print(array[1]);   // prints "world"
+    System.out.print(array[2]);   // prints ", it's "
+    System.out.println(array[3]); // prints "me!"
     
     array[3] = "Ni Hao "; //$NON-NLS-1$
     
-    System.out.print(array[3]);
-    System.out.print(array[1]);
-    System.out.print(array[2]);
-    System.out.print(array[0]);
+    System.out.print(array[3]); // prints "Ni Hao "
+    System.out.print(array[1]); // prints "world"
+    System.out.print(array[2]); // prints ", it's "
+    System.out.print(array[0]); // prints "hello "
   }
 }

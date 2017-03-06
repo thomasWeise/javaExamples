@@ -13,6 +13,6 @@ public class StringArrayNewFastIterate {
     array[3] = "me!"; //$NON-NLS-1$
     for (String str : array) { // str takes on the values of the array elements
       System.out.print(str); // print the value of str during this iteration
-    }
+    } // prints "hello world, it's me!"
   }
 }

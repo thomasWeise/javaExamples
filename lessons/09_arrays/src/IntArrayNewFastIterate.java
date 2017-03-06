@@ -11,7 +11,7 @@ public class IntArrayNewFastIterate {
     for (int i = 0; i < 5; i++) { // if length is 5, indexes from 0 to 4 are allowed
       System.out.print(' ');
       System.out.print(array[i]); // access an element of array by using "[index]"
-    }
+    } // prints "0 0 0 0 0"
     System.out.println();
 
     array[4] = 5; // set fifth element to 5
@@ -22,6 +22,6 @@ public class IntArrayNewFastIterate {
     for (int i = 0; i < 5; i++) { // if length is 5, indexes from 0 to 4 are allowed
       System.out.print(' ');
       System.out.print(array[i]); // access an element of array by using "[index]"
-    }
+    } // prints "1 2 3 0 5"
   }
 }

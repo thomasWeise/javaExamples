@@ -13,6 +13,6 @@ public class StringArrayNewIterate {
     array[3] = "me!"; //$NON-NLS-1$
     for (int i = 0; i < 4; i++) { // if length is 4, indexes from 0 to 3 are allowed      
       System.out.print(array[i]); // access an element of array by using "[index]"
-    }
+    } // prints "hello world, it's me!"
   }
 }

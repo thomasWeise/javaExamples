@@ -11,7 +11,7 @@ public class IntArrayNewLengthIterate {
     for (int i = 0; i < array.length; i++) { // indexes are valid from 0 to array.length-1
       System.out.print(' ');
       System.out.print(array[i]); // access an element of array by using "[index]"
-    }
+    } // prints "0 0 0 0 0"
     System.out.println();
 
     array[4] = 5; // set fifth element to 5
@@ -22,6 +22,6 @@ public class IntArrayNewLengthIterate {
     for (int i = 0; i < array.length; i++) { //  indexes are valid from 0 to array.length-1
       System.out.print(' ');
       System.out.print(array[i]); // access an element of array by using "[index]"
-    }
+    } // prints "1 2 3 0 5"
   }
 }
