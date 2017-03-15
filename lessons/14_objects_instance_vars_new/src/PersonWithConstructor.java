@@ -13,8 +13,7 @@ public class PersonWithConstructor {
   }
   
   /** The main routine
-   *  @param args
-   *          we ignore this parameter */
+   *  @param args we ignore this parameter */
   public static final void main(String[] args) {
     
     PersonWithConstructor weise = new PersonWithConstructor(// create person object by
@@ -23,10 +22,10 @@ public class PersonWithConstructor {
     PersonWithConstructor chan = new PersonWithConstructor(// create person object by
         "Chan", "Jacky"); //$NON-NLS-1$//$NON-NLS-2$      // calling the constructor
 
-    System.out.println(weise.givenName); // print the givenName of weise
-    System.out.println(weise.familyName); // print the familyName of weise
+    System.out.println(weise.givenName); // print the givenName of Thomas
+    System.out.println(weise.familyName); // print the familyName of Weise
     
     System.out.println(chan.familyName); // print the familyName of Chan
-    System.out.println(chan.givenName); // print the given name of Chan
+    System.out.println(chan.givenName); // print the given name of Jacky
   }
 }

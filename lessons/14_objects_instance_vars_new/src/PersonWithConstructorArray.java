@@ -2,8 +2,7 @@
 public class PersonWithConstructorArray {
 
   /** The main routine
-   *  @param args
-   *          we ignore this parameter */
+   *  @param args   we ignore this parameter */
   public static final void main(String[] args) {
 
     PersonWithConstructor[] array = { // create and initialize an array
@@ -14,6 +13,6 @@ public class PersonWithConstructorArray {
 
     for (PersonWithConstructor element : array) { // fast read-only iteration
       System.out.println(element.familyName);
-    }
+    } // Weise \n Chan \n Onegin
   }
 }

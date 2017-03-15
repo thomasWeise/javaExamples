@@ -19,6 +19,6 @@ public class PersonWithConstructorArrayWithNull {
       } else { // ok, null -> print something elese
         System.out.println("Missing element!");//$NON-NLS-1$
       }
-    }
+    } // Weise \n Chan \n Missing element! \n Onegin
   }
 }

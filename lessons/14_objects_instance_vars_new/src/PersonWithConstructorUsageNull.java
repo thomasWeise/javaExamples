@@ -29,11 +29,11 @@ public class PersonWithConstructorUsageNull {
     System.out.println(weise.givenName); // print the givenName of weise: "Jacky"
     
     chan = weise; // nothing changes, both variables still point to same object
-    System.out.println(chan.familyName); // print the familyName of Chan: "Kong-sang"
-    System.out.println(chan.givenName); // print the given name of Chan: "Chan"
+    System.out.println(chan.familyName); // print the familyName of Chan: "Chan"
+    System.out.println(chan.givenName); // print the given name of Chan: "Jacky"
 
     chan = null; // variable chan now does not point to an object anymore, but original chan object still referenced by weise
-    System.out.println(weise.givenName); // print the givenName of weise: "Kong-sang"
+    System.out.println(weise.givenName); // print the givenName of weise: "Jacky"
     System.out.println(weise.familyName); // print the familyName of weise: "Chan"
     
     weise.givenName = null; // given name of weise is now null (btw, the string "Kong-sang" can eventually be disposed by GC)

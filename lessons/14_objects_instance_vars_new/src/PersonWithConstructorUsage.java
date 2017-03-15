@@ -3,8 +3,7 @@
 public class PersonWithConstructorUsage {
   
   /** The main routine
-   *  @param args
-   *          we ignore this parameter */
+   *  @param args we ignore this parameter */
   public static final void main(String[] args) {    
     PersonWithConstructor weise = new PersonWithConstructor("Weise", "Thomas"); //$NON-NLS-1$//$NON-NLS-2$    
     PersonWithConstructor chan = new PersonWithConstructor("Chan", "Jacky"); //$NON-NLS-1$//$NON-NLS-2$
@@ -30,7 +29,7 @@ public class PersonWithConstructorUsage {
     System.out.println(weise.givenName); // print the givenName of weise: "Jacky"
     
     chan = weise; // nothing changes, both variables still point to same object
-    System.out.println(chan.familyName); // print the familyName of Chan: "Kong-sang"
-    System.out.println(chan.givenName); // print the given name of Chan: "Chan"
+    System.out.println(chan.familyName); // print the familyName of Chan: "Chan"
+    System.out.println(chan.givenName); // print the given name of Chan: "Jacky"
   }
 }

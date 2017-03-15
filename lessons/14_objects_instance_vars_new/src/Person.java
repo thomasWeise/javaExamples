@@ -18,10 +18,10 @@ public class Person {
     chan.givenName = "Jacky"; // set the given name of object chan //$NON-NLS-1$
     chan.familyName = "Chan"; // set the family name of object chan //$NON-NLS-1$
     
-    System.out.println(weise.givenName); // print the givenName of weise
-    System.out.println(weise.familyName); // print the familyName of weise
+    System.out.println(weise.givenName); // print the givenName "Thomas" of weise
+    System.out.println(weise.familyName); // print the familyName "Weise" of weise
     
-    System.out.println(chan.familyName); // print the familyName of Chan
-    System.out.println(chan.givenName); // print the given name of Chan
+    System.out.println(chan.familyName); // print the familyName "Chan" of chan
+    System.out.println(chan.givenName); // print the given name "Jacky" of chan
   }
 }
