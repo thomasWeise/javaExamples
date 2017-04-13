@@ -6,7 +6,7 @@ import org.junit.Test;
 /** Our second test class: the ball cannot fall below `0m` */
 public class VerticalBallThrowPositionNotBelow0Test {
 
-  /** test the position for `x_0=1m`, `v_0=10m/s^2`, `t=1000s` */
+  /** test the position for `x_0=1m`, `v_0=10m/s`, `t=1000s` */
   @Test // the annotation @Test means that this method is a test case
   public void testPosition_not_below_0_x01_v010_t1000() {
     Assert.assertEquals(0d,                         // the expected value
