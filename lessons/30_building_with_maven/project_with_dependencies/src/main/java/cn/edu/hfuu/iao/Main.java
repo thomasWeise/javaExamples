@@ -25,7 +25,7 @@ public class Main {
    *          we ignore this parameter for now */
   public static final void main(final String[] args) {
     System.err.println("Welcome to the linear curve fitting program."); //$NON-NLS-1$
-    System.err.println("Enter point pairs one pair a lint, x and y coordinates separated by space or tab."); //$NON-NLS-1$
+    System.err.println("Enter point pairs one pair a line, x and y coordinates separated by space or tab."); //$NON-NLS-1$
     System.err.println("Linear curve is fitted when stdin ends or Ctrl-D is pressed."); //$NON-NLS-1$
 
     SimpleRegression regression;                           // using commons-math3's simple regression class
